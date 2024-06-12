@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "7775:80"
+    container_name: singh_harkamal_coding_assignment11
